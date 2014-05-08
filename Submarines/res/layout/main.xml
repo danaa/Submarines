@@ -10,7 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:numColumns="10" 
-        android:layout_marginLeft="15dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:columnWidth="27dp"
         android:verticalSpacing="7dp"
@@ -25,7 +25,7 @@
 
         <GridView
             android:id="@+id/gridViewSide"
-            android:layout_width="15dp"
+            android:layout_width="20dp"
             android:columnWidth="15dp"
             android:layout_marginTop="5dp"
             android:layout_height="wrap_content"
