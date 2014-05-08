@@ -1,20 +1,18 @@
-package com.example.submarines.gui;
+package com.android.submarines.gui;
+
 
 import java.util.Arrays;
-
-import com.example.submarines.R;
-import com.example.submarines.logic.Game;
-import com.example.submarines.logic.Square;
-import com.example.submarines.logic.Square.State;
-
-import comm.example.submarines.events.SquareChangeEvent;
-
+import com.android.submarines.events.SquareChangeEvent;
+import com.android.submarines.logic.Game;
+import com.android.submarines.logic.Square;
+import com.android.submarines.R;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+
 
 public class ImageAdapter extends BaseAdapter 
 {

@@ -1,4 +1,4 @@
-package com.example.submarines.logic;
+package com.android.submarines.logic;
 
 public class Square 
 {

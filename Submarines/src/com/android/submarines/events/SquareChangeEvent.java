@@ -1,6 +1,6 @@
-package comm.example.submarines.events;
+package com.android.submarines.events;
 
-import com.example.submarines.logic.Square;
+import com.android.submarines.logic.Square;
 
 public class SquareChangeEvent 
 {

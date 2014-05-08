@@ -1,10 +1,10 @@
-package com.example.submarines.logic;
+package com.android.submarines.logic;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-import com.example.submarines.logic.Sub.Type;
+import com.android.submarines.logic.Sub.Type;
 
 public class Game 
 {

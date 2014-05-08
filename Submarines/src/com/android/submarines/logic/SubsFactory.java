@@ -1,4 +1,4 @@
-package com.example.submarines.logic;
+package com.android.submarines.logic;
 
 import java.util.Random;
 
