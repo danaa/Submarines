@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridViewup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="10" 
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:columnWidth="27dp"
+        android:verticalSpacing="7dp"
+        android:gravity="center"
+        >
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        >
+
+        <GridView
+            android:id="@+id/gridViewSide"
+            android:layout_width="15dp"
+            android:columnWidth="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:verticalSpacing="5dp"
+            android:numColumns="1"
+            android:gravity="center"
+            >
+        </GridView>
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnWidth="50dp"
+            android:gravity="center"
+            android:numColumns="10"
+            android:verticalSpacing="3dp"
+            android:horizontalSpacing="3dp"
+            android:layout_marginRight="10dp"
+            >
+        </GridView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check it!" />
+
+</LinearLayout>
